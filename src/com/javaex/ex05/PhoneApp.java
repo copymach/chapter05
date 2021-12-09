@@ -1,3 +1,5 @@
+package com.javaex.ex05;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -14,7 +16,7 @@ public class PhoneApp {
 		List<Person> pList = new ArrayList<Person>();
 		
 		//phoneDB.txt 접속
-		Reader fr = new FileReader("C:\\javaStudy\\file\\PhoneDB.txt");
+		Reader fr = new FileReader("C:\\javaStudy\\workspace\\file\\PhoneDB.txt");
 		BufferedReader br = new BufferedReader(fr);
 		
 		while(true) {
